@@ -1,0 +1,13 @@
+prefix=/home/shane/Desktop/Houseprice/venv
+exec_prefix=/home/shane/Desktop/Houseprice/venv
+libdir=/home/shane/Desktop/Houseprice/venv/lib
+sharedlibdir=/home/shane/Desktop/Houseprice/venv/lib
+includedir=/home/shane/Desktop/Houseprice/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
